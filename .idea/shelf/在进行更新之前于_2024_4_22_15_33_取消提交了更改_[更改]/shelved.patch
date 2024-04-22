@@ -1,0 +1,924 @@
+Index: .idea/langchain-spark-test.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/langchain-spark-test.iml b/.idea/langchain-spark-test.iml
+new file mode 100644
+--- /dev/null	(date 1713770788220)
++++ b/.idea/langchain-spark-test.iml	(date 1713770788220)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="jdk" jdkName="Python 3.11 (spark)" jdkType="Python SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++  <component name="PyDocumentationSettings">
++    <option name="format" value="PLAIN" />
++    <option name="myDocStringFormat" value="Plain" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1713770788263)
++++ b/.idea/modules.xml	(date 1713770788263)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/langchain-spark-test.iml" filepath="$PROJECT_DIR$/.idea/langchain-spark-test.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1713770788309)
++++ b/.idea/misc.xml	(date 1713770788309)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (spark)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+new file mode 100644
+--- /dev/null	(date 1713770788042)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1713770788042)
+@@ -0,0 +1,17 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
++      <Languages>
++        <language minSize="49" name="Python" />
++      </Languages>
++    </inspection_tool>
++    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
++      <option name="ignoredErrors">
++        <list>
++          <option value="E402" />
++        </list>
++      </option>
++    </inspection_tool>
++  </profile>
++</component>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1713770805695)
++++ b/.idea/.gitignore	(date 1713770805695)
+@@ -0,0 +1,8 @@
++# 默认忽略的文件
++/shelf/
++/workspace.xml
++# 基于编辑器的 HTTP 客户端请求
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1713770788340)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1713770788340)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/deployment.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/deployment.xml b/.idea/deployment.xml
+new file mode 100644
+--- /dev/null	(date 1713770788372)
++++ b/.idea/deployment.xml	(date 1713770788372)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
++    <serverData>
++      <paths name="root@192.168.36.202:15951 password">
++        <serverdata>
++          <mappings>
++            <mapping local="$PROJECT_DIR$" web="/" />
++          </mappings>
++        </serverdata>
++      </paths>
++    </serverData>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1713770788404)
++++ b/.idea/vcs.xml	(date 1713770788404)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: 1.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/1.txt b/1.txt
+new file mode 100644
+--- /dev/null	(date 1712415405517)
++++ b/1.txt	(date 1712415405517)
+@@ -0,0 +1,10 @@
++As railway tunnels are excavated, the dense rocks are removed, leaving one side hanging in the air while the other side remains connected to the original rock mass. The accumulated energy erupts in an instant, and rock fragments fly in all directions - this is called a rock burst.
++
++Rock bursts are one of the main safety hazards faced by deep-buried hard rock mountain tunnels during construction, directly threatening the safety of personnel and equipment. Professor He Benguo, the on-site technical manager of Northeastern University's major railway rock burst technology research group, said that their main work is to conduct safety monitoring and on-site experimental research at the engineering site, responsible for rock burst monitoring, early warning, and prevention. They have installed a team-developed rock burst intelligent monitoring and early warning system to support the safe and efficient construction of the project with technology.
++
++The group members start working in the tunnel when it's still dark outside and often work until three or four in the afternoon, then continue with data monitoring and analysis outside the tunnel. To collect detailed geological, construction, and occurrence process information about rock bursts, group members often need to work more than eight hours in a cave with an altitude of three to four thousand meters and extremely high risk of rock bursts.
++
++What are the research conditions like inside the tunnel? As soon as you enter the tunnel, you will be soaked through in no time. There is often dripping water from the walls, and the high temperature and humidity turn the tunnel into a "sauna." In winter, when the outdoor temperature is below 0°C, the temperature difference between inside and outside the tunnel can reach more than 40°C. Often, a fully wet "water person" who comes out of the tunnel turns into an "ice person" in a short time.
++
++In the face of tough working conditions, the rock burst technology research group has demonstrated a spirit of overcoming difficulties and taking the lead by moving their laboratory to the project construction site. When they first entered the tunnel, the efficiency of rock burst microseismic monitoring data processing was low, and there was a significant difference in data processing standards among different personnel, which affected the accuracy of early warning. Under Feng Xiating's careful guidance, project team teachers and students used artificial intelligence to establish an intelligent analysis method for microseismic data processing, built a rock burst intelligent monitoring and early warning system, unified data processing standards, improved data processing efficiency, and ensured timely early warning...
++
+Index: hellolangchain.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/hellolangchain.py b/hellolangchain.py
+new file mode 100644
+--- /dev/null	(date 1713771165468)
++++ b/hellolangchain.py	(date 1713771165468)
+@@ -0,0 +1,92 @@
++from SparkApiLangChain import Spark
++from langchain.prompts import PromptTemplate
++from langchain.prompts.chat import (
++    ChatPromptTemplate,
++    HumanMessagePromptTemplate,
++)
++from langchain.chains import LLMChain
++from langchain.agents import load_tools
++from langchain.agents import initialize_agent
++from langchain.agents import AgentType
++from langchain.agents import Tool, AgentExecutor, BaseSingleActionAgent
++from langchain.utilities import BingSearchAPIWrapper
++
++spark = Spark(max_tokens=2048, temperature=0.9)
++prompt = PromptTemplate(
++    input_variables=["products"],
++    template="what is a good name for a company that makes {products}"
++)
++
++# chain = LLMChain(llm=spark, prompt=prompt)
++# print(chain.run("water"))
++
++
++human_message_prompt = HumanMessagePromptTemplate(prompt=prompt)
++chat_prompt_template = ChatPromptTemplate.from_messages([human_message_prompt])
++chain_chat = LLMChain(llm=spark, prompt=chat_prompt_template)
++# print(chain_chat.run("colorful socks"))
++
++# Next, let's load some tools to use. Note that the `llm-math` tool uses an LLM, so we need to pass that in.
++# tools = load_tools(['BingSearchAPIWrapper', 'llm-math'], llm=spark)
++
++# Finally, let's initialize an agent with the tools, the language model,
++# and the type of agent we want to use.
++# agent = initialize_agent(tools, spark, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True)
++
++# agent.run("What was the high temperature in SF yesterday in here? What is that number raised to the .023 power?")
++
++search = BingSearchAPIWrapper()
++tools = [
++    Tool(
++        name="Search",
++        func=search.run,
++        description="useful for when you need to answer questions about current events",
++        return_direct=True
++    )
++]
++
++from typing import List, Tuple, Any, Union
++from langchain.schema import AgentAction, AgentFinish
++
++
++class FakeAgent(BaseSingleActionAgent):
++    """Fake Custom Agent."""
++
++    @property
++    def input_keys(self):
++        return ["input"]
++
++    def plan(
++            self, intermediate_steps: List[Tuple[AgentAction, str]], **kwargs: Any
++    ) -> Union[AgentAction, AgentFinish]:
++        """Given input, decided what to do.
++
++        Args:
++            intermediate_steps: Steps the LLM has taken to date,
++                along with observations
++            **kwargs: User inputs.
++
++        Returns:
++            Action specifying what tool to use.
++        """
++        return AgentAction(tool="Search", tool_input=kwargs["input"], log="")
++
++    async def aplan(
++            self, intermediate_steps: List[Tuple[AgentAction, str]], **kwargs: Any
++    ) -> Union[AgentAction, AgentFinish]:
++        """Given input, decided what to do.
++
++        Args:
++            intermediate_steps: Steps the LLM has taken to date,
++                along with observations
++            **kwargs: User inputs.
++
++        Returns:
++            Action specifying what tool to use.
++        """
++        return AgentAction(tool="Search", tool_input=kwargs["input"], log="")
++
++
++agent = FakeAgent()
++agent_executor = AgentExecutor.from_agent_and_tools(agent=agent, tools=tools, verbose=True)
++agent_executor.run("How many people live in canada as of 2023?")
+\ No newline at end of file
+Index: SparkApiOfficial.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SparkApiOfficial.py b/SparkApiOfficial.py
+new file mode 100644
+--- /dev/null	(date 1712500132782)
++++ b/SparkApiOfficial.py	(date 1712500132782)
+@@ -0,0 +1,147 @@
++# -*- coding: utf-8 -*-
++import _thread as thread
++import base64
++import datetime
++import hashlib
++import hmac
++import json
++from urllib.parse import urlparse
++import ssl
++from datetime import datetime
++from time import mktime
++from urllib.parse import urlencode
++from wsgiref.handlers import format_date_time
++
++import websocket
++
++
++class Ws_Param(object):
++    # 初始化
++    def __init__(self, APPID, APIKey, APISecret, gpt_url):
++        self.APPID = APPID
++        self.APIKey = APIKey
++        self.APISecret = APISecret
++        self.host = urlparse(gpt_url).netloc
++        self.path = urlparse(gpt_url).path
++        self.gpt_url = gpt_url
++
++    # 生成url
++    def create_url(self):
++        # 生成RFC1123格式的时间戳
++        now = datetime.now()
++        date = format_date_time(mktime(now.timetuple()))
++
++        # 拼接字符串
++        signature_origin = "host: " + self.host + "\n"
++        signature_origin += "date: " + date + "\n"
++        signature_origin += "GET " + self.path + " HTTP/1.1"
++
++        # 进行hmac-sha256进行加密
++        signature_sha = hmac.new(self.APISecret.encode('utf-8'), signature_origin.encode('utf-8'),
++                                 digestmod=hashlib.sha256).digest()
++
++        signature_sha_base64 = base64.b64encode(signature_sha).decode(encoding='utf-8')
++
++        authorization_origin = f'api_key="{self.APIKey}", ' \
++                               f'algorithm="hmac-sha256", ' \
++                               f'headers="host date request-line", ' \
++                               f'signature="{signature_sha_base64}"'
++
++        authorization = base64.b64encode(authorization_origin.encode('utf-8')).decode(encoding='utf-8')
++
++        # 将请求的鉴权参数组合为字典
++        v = {
++            "authorization": authorization,
++            "date": date,
++            "host": self.host
++        }
++        # 拼接鉴权参数，生成url
++        url = self.gpt_url + '?' + urlencode(v)
++        # 此处打印出建立连接时候的url,参考本demo的时候可取消上方打印的注释，比对相同参数时生成的url与自己代码生成的url是否一致
++        return url
++
++
++# 收到websocket错误的处理
++def on_error(ws, error):
++    print("### error:", error)
++
++
++# 收到websocket关闭的处理
++def on_close(ws, *args):
++    print("### closed ###")
++
++
++# 收到websocket连接建立的处理
++def on_open(ws):
++    thread.start_new_thread(run, (ws,))
++
++
++def run(ws, *args):
++    data = json.dumps(gen_params(appid=ws.appid, question=ws.question))
++    ws.send(data)
++
++
++# 收到websocket消息的处理
++def on_message(ws, message):
++    print(message)
++    data = json.loads(message)
++    code = data['header']['code']
++    if code != 0:
++        print(f'请求错误: {code}, {data}')
++        ws.close()
++    else:
++        choices = data["payload"]["choices"]
++        status = choices["status"]
++        content = choices["text"][0]["content"]
++        print(content, end='')
++        if status == 2:
++            ws.close()
++
++
++def gen_params(appid, question):
++    """
++    通过appid和用户的提问来生成请参数
++    """
++    data = {
++        "header": {
++            "app_id": appid,
++            "uid": "1234"
++        },
++        "parameter": {
++            "chat": {
++                "domain": "generalv3.5",
++                "random_threshold": 0.5,
++                "max_tokens": 2048,
++                "auditing": "default"
++            }
++        },
++        "payload": {
++            "message": {
++                "text": [
++                    {"role": "user", "content": question}
++                ]
++            }
++        }
++    }
++    return data
++
++
++def main(appid, api_key, api_secret, gpt_url, question):
++    wsParam = Ws_Param(appid, api_key, api_secret, gpt_url)
++    websocket.enableTrace(False)
++    wsUrl = wsParam.create_url()
++    ws = websocket.WebSocketApp(wsUrl, on_message=on_message, on_error=on_error, on_close=on_close, on_open=on_open)
++    ws.appid = appid
++    ws.question = question
++    ws.run_forever(sslopt={"cert_reqs": ssl.CERT_NONE})
++
++
++# --------------------- test code ---------------------
++# if __name__ == "__main__":
++# question = input("User: ")
++# # 测试时候在此处正确填写相关信息即可运行
++# main(appid="your_appid",
++#      api_secret="your_api_secret",
++#      api_key="your_api_key",
++#      gpt_url="xf_gpt_url",
++#      question=question)
+Index: SparkApiTest.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SparkApiTest.py b/SparkApiTest.py
+new file mode 100644
+--- /dev/null	(date 1713628018547)
++++ b/SparkApiTest.py	(date 1713628018547)
+@@ -0,0 +1,124 @@
++from SparkApiLangChain import Spark
++from langchain.prompts import PromptTemplate
++from langchain.chains import LLMRequestsChain, LLMChain
++from langchain.chains.summarize import load_summarize_chain
++from langchain.document_loaders import TextLoader
++from langchain.text_splitter import RecursiveCharacterTextSplitter
++from langchain.chains import SimpleSequentialChain
++
++spark = Spark(max_tokens=2048)
++
++
++# --------------------- test code 1 ---------------------
++def test_code_1():
++    print(spark("What can you do?"))
++
++
++# --------------------- test code 2 ---------------------
++def test_code_2():
++    template = """在 >>> 和 <<< 之间是网页的返回的HTML内容。
++    网页是新浪财经A股上市公司的公司简介。
++    请抽取参数请求的信息。
++
++    >>> {requests_result} <<<
++    请使用如下的JSON格式返回数据
++    {{
++      "company_name":"a",
++      "company_english_name":"b",
++      "issue_price":"c",
++      "date_of_establishment":"d",
++      "registered_capital":"e",
++      "office_address":"f",
++      "Company_profile":"g"
++
++    }}
++    Extracted:"""
++
++    prompt = PromptTemplate(
++        input_variables=["requests_result"],
++        template=template
++    )
++
++    chain = LLMRequestsChain(llm_chain=LLMChain(llm=spark, prompt=prompt))
++    inputs = {
++        "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCI_CorpInfo/stockid/600519.phtml"
++    }
++
++    response = chain(inputs)
++    print(response['output'])
++
++
++# --------------------- test code 3 ---------------------
++def test_code_3():
++    # 导入文本
++    loader = TextLoader("./1.txt")
++    # 将文本转成 Document 对象
++    document = loader.load()
++
++    # 初始化文本分割器
++    text_splitter = RecursiveCharacterTextSplitter(chunk_size=256,
++                                                   chunk_overlap=16)
++
++    # 切分文本
++    splitted_documents = text_splitter.split_documents(document)
++
++    # 创建总结链
++    Chain_instance = load_summarize_chain(llm=spark,
++                                          chain_type='refine',
++                                          verbose=True)
++
++    # 执行总结链，（为了快速演示，只总结前5段）
++    response = Chain_instance.run(splitted_documents[:])
++    print(response)
++
++
++# --------------------- test code 4 ---------------------
++def test_code_4():
++    # location 链
++    template = """
++    Your job is to come up with a classic dish from the area that the users suggests.
++    % USER LOCATION
++    {user_location}
++
++    YOUR RESPONSE:
++    """
++
++    prompt_template = PromptTemplate(input_variables=['user_location'], template=template)
++
++    location_chain = LLMChain(llm=spark, prompt=prompt_template)
++
++    # meal 链
++    template = """Given a meal, give a short and simple recipe on how to make that dish at home.
++    % MEAL
++    {user_meal}
++
++    YOUR RESPONSE:
++    """
++
++    prompt_template = PromptTemplate(input_variables=["user_meal"], template=template)
++
++    meal_chain = LLMChain(llm=spark, prompt=prompt_template)
++    # 通过 SimpleSequentialChain 串联起来，第一个答案会被替换第二个中的user_meal，然后再进行询问
++    overall_chain = SimpleSequentialChain(chains=[location_chain, meal_chain], verbose=True)
++    review = overall_chain.run("Rome")
++    return review
++
++
++if __name__ == "__main__":
++
++    print("************ test 1 ************")
++    print(test_code_1())
++    print("\n")
++    '''
++    print("************ test 2 ************")
++    print(test_code_2())
++    print("\n")
++
++    print("************ test 3 ************")
++    print(test_code_3())
++    print("\n")
++
++    print("************ test 4 ************")
++    print(test_code_4())
++    print("\n")
++    '''
+Index: SparkApiPackaging.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SparkApiPackaging.py b/SparkApiPackaging.py
+new file mode 100644
+--- /dev/null	(date 1713627908012)
++++ b/SparkApiPackaging.py	(date 1713627908012)
+@@ -0,0 +1,205 @@
++# -*- coding: utf-8 -*-
++import _thread as thread
++import base64
++import datetime
++import hashlib
++import hmac
++import json
++from urllib.parse import urlparse
++import ssl
++from datetime import datetime
++from time import mktime
++from urllib.parse import urlencode
++from wsgiref.handlers import format_date_time
++from dotenv import load_dotenv, find_dotenv
++import os
++import websocket
++
++
++class Ws_Param(object):
++    # 初始化
++    def __init__(self, APPID, APIKey, APISecret, gpt_url):
++        self.APPID = APPID
++        self.APIKey = APIKey
++        self.APISecret = APISecret
++        self.host = urlparse(gpt_url).netloc
++        self.path = urlparse(gpt_url).path
++        self.gpt_url = gpt_url
++
++    # 生成url
++    def create_url(self):
++        # 生成RFC1123格式的时间戳
++        now = datetime.now()
++        date = format_date_time(mktime(now.timetuple()))
++
++        # 拼接字符串
++        signature_origin = "host: " + self.host + "\n"
++        signature_origin += "date: " + date + "\n"
++        signature_origin += "GET " + self.path + " HTTP/1.1"
++
++        # 进行hmac-sha256进行加密
++        signature_sha = hmac.new(self.APISecret.encode('utf-8'), signature_origin.encode('utf-8'),
++                                 digestmod=hashlib.sha256).digest()
++
++        signature_sha_base64 = base64.b64encode(signature_sha).decode(encoding='utf-8')
++
++        authorization_origin = f'api_key="{self.APIKey}", ' \
++                               f'algorithm="hmac-sha256", ' \
++                               f'headers="host date request-line", ' \
++                               f'signature="{signature_sha_base64}"'
++        # print(f'authorization_origin is {authorization_origin} \n')
++        authorization = base64.b64encode(authorization_origin.encode('utf-8')).decode(encoding='utf-8')
++
++        # 将请求的鉴权参数组合为字典
++        v = {
++            "authorization": authorization,
++            "date": date,
++            "host": self.host
++        }
++        # 拼接鉴权参数，生成url
++        url = self.gpt_url + '?' + urlencode(v)
++        # 此处打印出建立连接时候的url,参考本demo的时候可取消上方打印的注释，比对相同参数时生成的url与自己代码生成的url是否一致
++        return url
++
++
++# 2023 07 28 v2
++class SparkLLMBase:
++    def __init__(self, max_tokens=2048, temperature=0.5):
++        self.total_content_replaced = None
++        load_dotenv(find_dotenv(), verbose=True)
++        self.wsParam = None
++        self.total_content = ''
++
++        self.max_tokens = max_tokens
++        self.temperature = temperature
++
++        self.appid = os.environ["SPARK_APPID"]
++        self.apikey = os.environ["SPARK_APIKEY"]
++        self.apisecret = os.environ["SPARK_APISECRET"]
++        self.gpt_url = os.environ["SPARK_GPTURL"]
++
++        self.chat_history = []
++
++    def __call__(self, inprompt: str):
++        return self.call_function(inprompt)
++
++
++
++    def _add_to_chat_history(self, role, content):
++        assert role == "user" or role == "assistant"
++        self.chat_history += [{'role': role, 'content': content}]
++
++    def _on_error(self, ws, error):
++        print("### error:", error)
++
++    # 收到websocket关闭的处理
++    def _on_close(self, ws, *args):
++        response = self.total_content
++        response_format = self._format_print(10)
++        self.total_content = ''
++        # print(response_format)
++        # print("\n### closed ###")
++        return response
++
++    def _gen_params(self, appid, question):
++        """
++        通过appid和用户的提问来生成请参数
++        """
++        data = {
++            "header": {
++                "app_id": appid,
++                "uid": "1234"
++            },
++            "parameter": {
++                "chat": {
++                    "domain": "generalv3.5",
++                    "random_threshold": self.temperature,
++                    "max_tokens": self.max_tokens,
++                    "auditing": "default"
++                }
++            },
++            "payload": {
++                "message": {
++                    "text": self.chat_history
++                }
++            }
++        }
++        # print('\n', data, '\n')
++        return data
++
++    def _run(self, ws, *args):
++        data = json.dumps(self._gen_params(appid=ws.appid, question=ws.question))
++        ws.send(data)
++
++    # 收到websocket连接建立的处理
++    def _on_open(self, ws):
++        thread.start_new_thread(self._run, (ws,))
++
++    def _on_message(self, ws, message):
++        # print(message)
++        data = json.loads(message)
++        code = data['header']['code']
++        if code != 0:
++            print(f'请求错误: {code}, {data}')
++            ws.close()
++        else:
++            choices = data["payload"]["choices"]
++            status = choices["status"]
++            content = choices["text"][0]["content"]
++            # print(content, end='')
++            self.total_content += content
++            if status == 2:
++                ws.close()
++
++    def _format_print(self, line_length=10):
++
++        self.total_content_replaced = self.total_content.replace("\n", "")
++        # 将字符串按照每行字符数切分为列表
++        lines = [self.total_content_replaced[i:i + line_length]
++                 for i in range(0, len(self.total_content_replaced), line_length)]
++
++        # 将列表中的每个元素用换行符连接成一个字符串
++        result = "\n".join(lines)
++
++        return result
++
++    def call_function(self, prompt: str):
++        self._add_to_chat_history('user', prompt)
++        self.wsParam = Ws_Param(APPID=self.appid,
++                                APIKey=self.apikey,
++                                APISecret=self.apisecret,
++                                gpt_url=self.gpt_url)
++        websocket.enableTrace(False)
++        wsUrl = self.wsParam.create_url()
++        # print(f' url is : {wsUrl}')
++        ws = websocket.WebSocketApp(wsUrl,
++                                    on_message=self._on_message,
++                                    on_error=self._on_error,
++                                    on_close=self._on_close,
++                                    on_open=self._on_open)
++        ws.appid = self.appid
++        ws.question = prompt
++        ws.run_forever(sslopt={"cert_reqs": ssl.CERT_NONE})
++        response_to_return = self.total_content_replaced
++        self._add_to_chat_history('assistant', response_to_return)
++        self.total_content_replaced = ''
++        return response_to_return
++
++
++# --------------------- test code ---------------------
++if __name__ == "__main__":
++    spark_test = SparkLLMBase(max_tokens=2048,
++                              temperature=0.1)
++    # ----------- test case 1 -----------
++    # prompt = "How big is the earth?"
++    # r = spark_test(prompt)
++    # print(r)
++
++    # ----------- test case 2 -----------
++    # while True:
++    #     user_question = input("用户：")
++    #     ai_response = spark_test(user_question)
++    #     print("星火认知大模型：", ai_response)
++    #
++    #     if user_question == '':
++    #         break
+Index: requirements.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/requirements.txt b/requirements.txt
+new file mode 100644
+--- /dev/null	(date 1712415405524)
++++ b/requirements.txt	(date 1712415405524)
+@@ -0,0 +1,3 @@
++langchain==0.0.200
++python-dotenv==1.0.0
++websocket_client==1.6.1
+Index: error_records.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/error_records.txt b/error_records.txt
+new file mode 100644
+--- /dev/null	(date 1712415405524)
++++ b/error_records.txt	(date 1712415405524)
+@@ -0,0 +1,6 @@
++//////////      错误修复    /////////
++
++1.  ### error: [Errno 104] Connection reset by peer
++    检查模型的 max_tokens 是不是设置的太小了，调大 max_tokens 可以解决。
++
++2.
+\ No newline at end of file
+Index: .env
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.env b/.env
+new file mode 100644
+--- /dev/null	(date 1712416103660)
++++ b/.env	(date 1712416103660)
+@@ -0,0 +1,4 @@
++appid = b9523eb6
++apisecret = NDk3YjAwYTdmOWZiZTc3ZTU3MDFiYzE4
++apikey = bdc18bf4199c5fe3bf2795f5e9ed7b51
++gpt_url = wss://spark-api.xf-yun.com/v3.5/chat
+\ No newline at end of file
+Index: SparkApiLangChain.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SparkApiLangChain.py b/SparkApiLangChain.py
+new file mode 100644
+--- /dev/null	(date 1712493405415)
++++ b/SparkApiLangChain.py	(date 1712493405415)
+@@ -0,0 +1,47 @@
++# 从typing库中导入必要的函数和类型声明
++from typing import Any, List, Mapping, Optional
++
++# 导入所需的类和接口
++from langchain.callbacks.manager import CallbackManagerForLLMRun
++from langchain.llms.base import LLM
++
++from SparkApiPackaging import SparkLLMBase
++
++
++# 定义一个名为Spark的子类，继承自LLM类
++class Spark(LLM):
++    # 类的成员变量
++    max_tokens = 1024
++    temperature = 0.5
++    spark_kernel = SparkLLMBase(max_tokens=max_tokens,
++                                temperature=temperature)
++    spark_indentify = 'spark'
++
++    # 用于指定该子类对象的类型
++    @property
++    def _llm_type(self) -> str:
++        return "Spark"
++
++    # 重写基类方法，根据用户输入的prompt来响应用户，返回字符串
++    def _call(
++            self,
++            prompt: str,
++            stop: Optional[List[str]] = None,
++            run_manager: Optional[CallbackManagerForLLMRun] = None,
++            **kwargs: Any,
++    ) -> str:
++        print(prompt)
++        if stop is not None:
++            raise ValueError("stop kwargs are not permitted.")
++        return self.spark_kernel(prompt)
++
++    # 返回一个字典类型，包含LLM的唯一标识
++    @property
++    def _identifying_params(self) -> Mapping[str, Any]:
++        """Get the identifying parameters."""
++        return {"spark": self.spark_indentify}
++
++# # --------------------- test code ---------------------
++# if __name__ == "__main__":
++#     mySpark = Spark()
++#     print(mySpark("请你设计一个中餐厅菜馆的菜单。"))
+Index: LICENSE
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LICENSE b/LICENSE
+new file mode 100644
+--- /dev/null	(date 1712415405517)
++++ b/LICENSE	(date 1712415405517)
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2023 JinbiaoZhu
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
